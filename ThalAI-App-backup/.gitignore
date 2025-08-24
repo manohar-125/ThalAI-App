@@ -1,0 +1,24 @@
+.env
+.env.*
+backend/.env
+frontend/.env
+# 3) Make sure we don't track junk or secrets
+cat > .gitignore <<'EOF'
+# env & secrets
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# dependencies
+node_modules/
+
+# builds
+dist/
+build/
+
+# OS/editor
+.DS_Store
+*.log
+.vscode/
+.idea/

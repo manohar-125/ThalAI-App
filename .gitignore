@@ -1,6 +1,11 @@
 .env
 .env.*
+backend/.env
+frontend/.env
 node_modules/
 dist/
 build/
 .DS_Store
+*.log
+.vscode/
+.idea/

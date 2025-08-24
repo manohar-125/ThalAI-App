@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #fafafa;
+  color: #111827;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #fff;
+}
+button:hover { background: #f9fafb; }
+ul { padding-left: 18px; }
+
+.pill {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+.pill--red { border-color: #fecaca; background: #fee2e2; }
+
+.dot {
+  width: 10px; height: 10px; border-radius: 999px; display: inline-block;
+  background: #d1d5db;
+}
+.dot--ok { background: #22c55e; }
+.dot--warn { background: #f97316; }
+
+.chev { font-weight: 700; color: #9ca3af; }
